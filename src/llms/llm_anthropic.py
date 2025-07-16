@@ -1,5 +1,5 @@
 from langchain_community.chat_models import ChatAnthropic
-from llm_base import LLMBase
+from src.llms.llm_base import LLMBase
 
 class LLMAnthropic(LLMBase):
     def __init__(self, model_name: str, api_key: str = None):

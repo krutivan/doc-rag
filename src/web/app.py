@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 from routers.health import router as health_router
 from routers.chat import router as chat_router
-from core.config.config_reader import app_config
+from src.core.config.config_reader import app_config
 
 app = FastAPI()
 

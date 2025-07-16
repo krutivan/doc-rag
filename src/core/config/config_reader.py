@@ -1,6 +1,6 @@
 import os
 import yaml
-from core.config.app_config import (
+from src.core.config.app_config import (
     AppConfig, AppInfoConfig, ChatConfig, LLMConfig, FastAPISettings
 )
 from src.core.constants.model_type import ModelType
@@ -41,7 +41,7 @@ chat_config = ChatConfig(
 )
 
 # Attach selected_llm config to chat_config
-selected_llm_name = getattr(chat_config, 'selected_llm', None)
+selected_llm_name = chat_section.get('llm', None)
 if selected_llm_name and selected_llm_name in llm_configs:
     chat_config.selected_llm = llm_configs[selected_llm_name]
 else:

@@ -1,9 +1,9 @@
 import uvicorn
 import os
 import sys
-sys.path.append(__file__[:__file__.rfind('web') ])
+sys.path.append(__file__[:__file__.rfind('src') ])
 
-from core.config.config_reader import app_config
+from src.core.config.config_reader import app_config
 
 def run_fastapi_server():
     """Run FastAPI app with uvicorn ASGI server using config.yaml settings"""
