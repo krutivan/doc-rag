@@ -1,6 +1,6 @@
 
 from fastapi import APIRouter, status
-from services.chat.chat_service import chat_service
+from src.services.chat.chat_service import chat_service
 
 router = APIRouter()
 
