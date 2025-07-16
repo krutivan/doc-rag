@@ -1,3 +1,35 @@
+app:
+  name: doc-rag
+  version: 0.1.0
+  description: A document retrieval and generation system
+
+# Chat Settings: add your chat settings here in the format:
+# chat:
+#   llm: <name>, select a name that matches the name in the llm section
+#   max_history: <max_history>
+
+chat:
+  llm: open_ai_gpt4o
+  max_history: 5
+  
+# LLM Settings: Add your llms here in the format:
+# llm:
+#   <name>:
+#     type: <open_ai | anthropic>
+#     model_name: <model_name>
+#     api_key: <api_key>
+
+llm:
+  open_ai_gpt4o:
+    type: open_ai
+    model_name: gpt-4o
+    api_key: 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
+
+  anthropic_claude:
+    type: anthropic
+    model_name: claude-3-5-sonnet-20240620
+    api_key: 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
+
 fast_api_server:
   host: 0.0.0.0
   port: 2000

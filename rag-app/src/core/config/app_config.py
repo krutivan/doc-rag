@@ -1,8 +1,20 @@
-
 from pydantic import BaseModel, Field
+from typing import Dict, Optional
+from src.core.constants.model_type import ModelType
 
-class DatabaseConfig(BaseModel):
-    pass
+class AppInfoConfig(BaseModel):
+    name: str
+    version: str
+    description: Optional[str] = None
+
+class ChatConfig(BaseModel):
+    selected_llm: LLMConfig
+    max_history: int
+
+class LLMConfig(BaseModel):
+    type: ModelType
+    model_name: str
+    api_key: str
 
 class FastAPISettings(BaseModel):
     host: str = Field(default="0.0.0.0", description="Host for FastAPI server")
@@ -10,5 +22,7 @@ class FastAPISettings(BaseModel):
     api_prefix: str = Field(default="/api/v1", description="API prefix for routes")
 
 class AppConfig(BaseModel):
-    database: DatabaseConfig
+    app: AppInfoConfig
+    chat: ChatConfig
+    llm: Dict[str, LLMConfig]
     api_settings: FastAPISettings
