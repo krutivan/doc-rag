@@ -1,7 +1,7 @@
 import os
 import yaml
 from src.core.config.app_config import (
-    AppConfig, AppInfoConfig, ChatConfig, LLMConfig, FastAPISettings
+    AppConfig, AppInfoConfig, ChatConfig, LLMConfig, FastAPISettings, VectorDBConfig, IndexConfig
 )
 from src.core.constants.model_type import ModelType
 
@@ -20,7 +20,8 @@ app_section = _config.get('app', {})
 app_info = AppInfoConfig(
     name=app_section.get('name', ''),
     version=app_section.get('version', ''),
-    description=app_section.get('description')
+    description=app_section.get('description'),
+    data_path=app_section.get('data_path')
 )
 
 # Parse llm section
@@ -56,9 +57,26 @@ fastapi_settings = FastAPISettings(
     api_prefix=fast_api_server.get('api', {}).get('prefix', '/api/v1')
 )
 
+# Parse vector_db section
+vector_db_section = _config.get('vector_db', {})
+vector_db_configs = {}
+for db_name, db_conf in vector_db_section.items():
+    vector_db_configs[db_name] = VectorDBConfig(**db_conf)
+
+# Parse index section
+index_section = _config.get('index', {})
+index_vector_db_name = index_section.get('vector_db', '')
+index_vector_db_config = vector_db_configs.get(index_vector_db_name)
+index_config = IndexConfig(
+    vector_db=index_vector_db_config,
+    embedding_model=index_section.get('embedding_model', '')
+)
+
 app_config = AppConfig(
     app=app_info,
     chat=chat_config,
     llm=llm_configs,
-    api_settings=fastapi_settings
+    api_settings=fastapi_settings,
+    vector_db=vector_db_configs,
+    index=index_config
 )

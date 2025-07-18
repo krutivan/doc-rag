@@ -4,3 +4,8 @@ pyyaml
 langchain_community
 langchain_openai
 langchain_core
+sentence-transformers
+chromadb
+duckdb
+pandas
+python-multipart
