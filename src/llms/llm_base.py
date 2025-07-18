@@ -5,7 +5,6 @@ from langchain_core.messages import BaseMessage
 class LLMBase(ABC):
     def query(
         self, 
-        messages: list,
-        prompt: str,
+        messages: list
     ) -> str:
         raise NotImplementedError

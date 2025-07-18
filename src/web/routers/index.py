@@ -1,15 +1,13 @@
 import os
 from tempfile import NamedTemporaryFile
 from fastapi import APIRouter, UploadFile, File, HTTPException
-from pydantic import BaseModel
 from src.services.index.index_service import IndexService
+from src.core.dto.index_dto import IndexResponse
 
 router = APIRouter()
 
-class IndexResponseDTO(BaseModel):
-    num_chunks: int
 
-@router.post("/index", response_model=IndexResponseDTO)
+@router.post("/index", response_model=IndexResponse)
 async def index_document(file: UploadFile = File(...)):
     # Save uploaded file to a temp location
     try:

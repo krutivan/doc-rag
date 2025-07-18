@@ -3,7 +3,8 @@ app:
   version: 0.1.0
   description: A document retrieval and generation system
   data_path: ./data
- 
+  prompt_dir: ./src/prompts/prompt_files
+
 # LLM Settings: Add your llms here in the format:
 # llm:
 #   <name>:
@@ -13,7 +14,7 @@ app:
 
 llm:
   open_ai_gpt4o:
-    type: open_ai
+    type: openai
     model_name: gpt-4o
     api_key: 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
 
@@ -46,9 +47,10 @@ chat:
 # index:
 #   vector_db: <name>, select a name that matches the name in the vector_db section
 #   embedding_model: <name>, select a name from all-MiniLM-L6-v2 | Add future supported here
-index:
+rag_knowledge:
   vector_db: chromadb
   embedding_model: all-MiniLM-L6-v2
+  top_k: 2
 
 fast_api_server:
   host: 0.0.0.0

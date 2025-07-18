@@ -14,6 +14,7 @@ def _read_config():
         return yaml.safe_load(f)
 
 _config = _read_config()
+print(_config)
 
 # Parse app section
 app_section = _config.get('app', {})
@@ -21,7 +22,8 @@ app_info = AppInfoConfig(
     name=app_section.get('name', ''),
     version=app_section.get('version', ''),
     description=app_section.get('description'),
-    data_path=app_section.get('data_path')
+    data_path=app_section.get('data_path'),
+    prompt_dir=app_section.get('prompt_dir')
 )
 
 # Parse llm section
@@ -63,13 +65,14 @@ vector_db_configs = {}
 for db_name, db_conf in vector_db_section.items():
     vector_db_configs[db_name] = VectorDBConfig(**db_conf)
 
-# Parse index section
-index_section = _config.get('index', {})
-index_vector_db_name = index_section.get('vector_db', '')
-index_vector_db_config = vector_db_configs.get(index_vector_db_name)
-index_config = IndexConfig(
-    vector_db=index_vector_db_config,
-    embedding_model=index_section.get('embedding_model', '')
+# Parse rag_knowledge section
+rag_knowledge_section = _config.get('rag_knowledge', {})
+rag_knowledge_vector_db_name = rag_knowledge_section.get('vector_db', '')
+rag_knowledge_vector_db_config = vector_db_configs.get(rag_knowledge_vector_db_name)
+rag_knowledge_config = IndexConfig(
+    vector_db=rag_knowledge_vector_db_config,
+    embedding_model=rag_knowledge_section.get('embedding_model', ''),
+    top_k=rag_knowledge_section.get('top_k', 4)
 )
 
 app_config = AppConfig(
@@ -78,5 +81,5 @@ app_config = AppConfig(
     llm=llm_configs,
     api_settings=fastapi_settings,
     vector_db=vector_db_configs,
-    index=index_config
+    rag_knowledge=rag_knowledge_config
 )
