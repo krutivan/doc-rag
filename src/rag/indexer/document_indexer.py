@@ -11,14 +11,14 @@ from src.core.utils.file_utils import FileUtils
 class DocumentIndexer(BaseIndexer):
     def __init__(self):
         # Get vector DB config and persist dir from app config
-        self.vector_db_config = app_config.index.vector_db
+        self.vector_db_config = app_config.rag_knowledge.vector_db
         self.persist_dir = app_config.app.data_path
         self.vector_db = VectorDBConnectorFactory.create(
-            db_name=app_config.index.vector_db.type.value,
+            db_name=app_config.rag_knowledge.vector_db.type.value,
             db_config=self.vector_db_config,
             persist_dir=self.persist_dir
         )
-        self.embedding_model = EmbeddingModelFactory.create(app_config.index.embedding_model)
+        self.embedding_model = EmbeddingModelFactory.create(app_config.rag_knowledge.embedding_model)
 
     def index_document(self, file_path: str):
         ext = os.path.splitext(file_path)[1].lower()

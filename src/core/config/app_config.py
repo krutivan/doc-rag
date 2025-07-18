@@ -8,6 +8,7 @@ class AppInfoConfig(BaseModel):
     version: str
     description: Optional[str] = None
     data_path: Optional[str] = None
+    prompt_dir: str
 
 class LLMConfig(BaseModel):
     type: ModelType
@@ -32,7 +33,8 @@ class VectorDBConfig(BaseModel):
 
 class IndexConfig(BaseModel):
     vector_db: VectorDBConfig
-    embedding_model: str
+    embedding_model: str    
+    top_k: int
 
 class AppConfig(BaseModel):
     app: AppInfoConfig
@@ -40,4 +42,4 @@ class AppConfig(BaseModel):
     llm: Dict[str, LLMConfig]
     api_settings: FastAPISettings
     vector_db: Dict[str, VectorDBConfig]
-    index: IndexConfig
+    rag_knowledge: IndexConfig

@@ -7,5 +7,6 @@ class LLMAnthropic(LLMBase):
         self.api_key = api_key
         self.llm = ChatAnthropic(model=model_name, anthropic_api_key=api_key)
 
-    def query(self, messages, prompt: str):
-        return self.llm.invoke(messages + [prompt])
+    def query(self, messages):
+        return self.llm.invoke(messages)
+

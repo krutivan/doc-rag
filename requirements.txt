@@ -9,3 +9,6 @@ chromadb
 duckdb
 pandas
 python-multipart
+langgraph
+langchain_core
+langsmith
