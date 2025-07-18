@@ -1,0 +1,15 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore OS-specific files
+.DS_Store 
+
+# Ignore IDE-specific files (e.g., Visual Studio Code)
+.vscode/
+
+# Ignore log files
+*.log
+
+# ignore others
+.replit

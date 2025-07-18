@@ -2,6 +2,7 @@ app:
   name: doc-rag
   version: 0.1.0
   description: A document retrieval and generation system
+  data_path: ./data
  
 # LLM Settings: Add your llms here in the format:
 # llm:
@@ -21,6 +22,17 @@ llm:
     model_name: claude-3-5-sonnet-20240620
     api_key: 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
 
+# Vector DB Settings: Add your vector db here in the format:
+# vector_db:
+#   <name>:
+#     type: <chromadb | pinecone>
+#     in_memory: <True | False>
+
+vector_db:
+  chromadb:
+    type: chromadb
+    in_memory: True
+
 # Chat Settings: add your chat settings here in the format:
 # chat:
 #   llm: <name>, select a name that matches the name in the llm section
@@ -29,6 +41,14 @@ llm:
 chat:
   llm: open_ai_gpt4o
   max_history: 5
+
+# Index Settings: add your index settings here in the format:
+# index:
+#   vector_db: <name>, select a name that matches the name in the vector_db section
+#   embedding_model: <name>, select a name from all-MiniLM-L6-v2 | Add future supported here
+index:
+  vector_db: chromadb
+  embedding_model: all-MiniLM-L6-v2
 
 fast_api_server:
   host: 0.0.0.0
