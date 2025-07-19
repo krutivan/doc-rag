@@ -18,6 +18,7 @@ class LLMConfig(BaseModel):
 class ChatConfig(BaseModel):
     selected_llm: Optional[LLMConfig] = None
     max_history: int
+    generate_followup: bool = True
 
 class FastAPISettings(BaseModel):
     host: str = Field(default="0.0.0.0", description="Host for FastAPI server")
