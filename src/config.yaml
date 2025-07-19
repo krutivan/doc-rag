@@ -44,8 +44,8 @@ chat:
   max_history: 5
   generate_followup: true
 
-# Index Settings: add your index settings here in the format:
-# index:
+# Rag Knowledge Settings: add your rag knowledge settings here in the format:
+# rag_knowledge:
 #   vector_db: <name>, select a name that matches the name in the vector_db section
 #   embedding_model: <name>, select a name from all-MiniLM-L6-v2 | Add future supported here
 rag_knowledge:
