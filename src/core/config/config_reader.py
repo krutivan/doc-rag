@@ -40,7 +40,8 @@ for llm_name, llm_conf in llm_section.items():
 chat_section = _config.get('chat', {})
 chat_config = ChatConfig(
     selected_llm=None,
-    max_history=int(chat_section.get('max_history', 5))
+    max_history=int(chat_section.get('max_history', 5)),
+    generate_followup=chat_section.get('generate_followup', True)
 )
 
 # Attach selected_llm config to chat_config

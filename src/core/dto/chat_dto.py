@@ -7,3 +7,4 @@ class ChatCreateResponse(BaseModel):
 
 class ChatMessageResponse(BaseModel):
     response_message: str
+    follow_up_questions: str

@@ -42,6 +42,7 @@ vector_db:
 chat:
   llm: open_ai_gpt4o
   max_history: 5
+  generate_followup: true
 
 # Index Settings: add your index settings here in the format:
 # index:

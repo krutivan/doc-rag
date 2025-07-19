@@ -6,3 +6,4 @@ class AgentState(TypedDict):
     documents: List[str]
     document_ids: List[str]
     distances: List[float]
+    follow_up_questions: str
