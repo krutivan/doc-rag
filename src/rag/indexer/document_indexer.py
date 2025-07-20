@@ -37,7 +37,6 @@ class DocumentIndexer(BaseIndexer):
 
     def _load_and_chunk_text_file(self, file_path: str):
         from langchain_community.document_loaders import TextLoader
-        from langchain.text_splitter import RecursiveCharacterTextSplitter
         loader = TextLoader(file_path)
         documents = loader.load()
         return self._recursive_text_splitter(documents)
@@ -50,7 +49,6 @@ class DocumentIndexer(BaseIndexer):
     
     def _recursive_text_splitter(self, documents: list[Document]):
         # TODO: Make splitter/chunker config driven
-        from langchain.text_splitter import RecursiveCharacterTextSplitter
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=1000,
             chunk_overlap=200
