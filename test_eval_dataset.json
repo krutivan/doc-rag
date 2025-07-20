@@ -1,0 +1,184 @@
+[
+    {
+        "question": "Where did icecream originate from?",
+        "baseline_documents":["# 🍦 A Brief History of Ice Cream\n\nIce cream, a beloved frozen treat enjoyed worldwide, has a long and fascinating history that spans centuries and continents.\n\n## 🏺 Ancient Origins\n\n- **China (around 200 BCE)**: Early versions of ice cream were made by mixing milk with rice and snow.\n- **Persia (500 BCE)**: Created chilled desserts using grape juice and snow stored in underground chambers called *yakhchals*.\n- **Rome (37–68 CE)**: Emperor Nero is said to have sent slaves to collect snow from the mountains, which was flavored with fruit and honey.\n\n## 🍧 Middle Ages\n\n- **Arab world**: Introduced *sharbat*, a syrup-based ice treat using sugar, fruit, and ice.\n- Use of **milk and cream** started becoming more common in frozen desserts.\n\n## 🍨 Renaissance Europe"],
+        "baseline_answer": "Icecream originated in China around 200 BCE."
+    },
+    {
+        "question": "Tell me all top countries that are influential for icecream before 16th century?",
+        "baseline_documents":["# 🍦 A Brief History of Ice Cream\n\nIce cream, a beloved frozen treat enjoyed worldwide, has a long and fascinating history that spans centuries and continents.\n\n## 🏺 Ancient Origins\n\n- **China (around 200 BCE)**: Early versions of ice cream were made by mixing milk with rice and snow.\n- **Persia (500 BCE)**: Created chilled desserts using grape juice and snow stored in underground chambers called *yakhchals*.\n- **Rome (37–68 CE)**: Emperor Nero is said to have sent slaves to collect snow from the mountains, which was flavored with fruit and honey.\n\n## 🍧 Middle Ages\n\n- **Arab world**: Introduced *sharbat*, a syrup-based ice treat using sugar, fruit, and ice.\n- Use of **milk and cream** started becoming more common in frozen desserts.\n\n## 🍨 Renaissance Europe",
+        "- **Arab world**: Introduced *sharbat*, a syrup-based ice treat using sugar, fruit, and ice.\n- Use of **milk and cream** started becoming more common in frozen desserts.\n\n## 🍨 Renaissance Europe\n\n- **Italy (1600s)**: Sorbetto (sorbet) and gelato became popular, thanks to culinary innovations in Florence and Naples.\n- **France**: Caterina de' Medici is often credited with bringing ice cream to the French court in the 16th century.\n\n## 🍦 Ice Cream in America\n\n- **1700s**: Brought to the American colonies by European settlers.\n- **George Washington** reportedly spent $200 on ice cream in the summer of 1790.\n- **Dolley Madison** served ice cream at President Madison’s inaugural ball in 1813.\n\n## 🏭 Industrial Era\n\n- **1843**: First hand-cranked ice cream freezer patented by Nancy Johnson (U.S.).\n- **1850s**: Ice cream parlors opened in American cities.\n- **1904**: Ice cream cone popularized at the St. Louis World’s Fair.\n\n## 🍨 Modern Era"],
+        "baseline_answer": "These countries are China, Persia, Rome, Arab world, Italy, France."
+    },
+    {
+        "question": "What are some invented languages in world building?",
+        "baseline_documents":["---\n\n## 🌐 World-Building and Linguistics\n\n- Invented entire languages: **Quenya**, **Sindarin**, **Khuzdul**, and more.\n- Developed Middle-earth with maps, timelines, cultures, and histories spanning thousands of years.\n- Blended elements from Norse, Finnish, Celtic, and Anglo-Saxon mythology.\n\n---\n\n## 🏛️ Legacy and Influence\n\n- Widely regarded as the **father of modern high fantasy**.\n- Inspired generations of fantasy writers, including C.S. Lewis, George R.R. Martin, and J.K. Rowling.\n- Middle-earth adaptations have spanned:\n  - Radio\n  - Stage\n  - Peter Jackson’s film trilogies (2001–2003, 2012–2014)\n  - Streaming series exploring the Second Age\n\n---\n\n## 📖 Literary Style\n\n- Combines **poetic prose**, **formal diction**, and **moral clarity**.\n- Stories are often deeply rooted in **Christian symbolism**, **linguistic invention**, and **historical myth**.\n- Emphasized the concept of *eucatastrophe*—a sudden joyous turn.\n\n---\n\n## 👪 Personal Life"],
+        "baseline_answer": "Some invented languages in world building include Quenya, Sindarin, and Khuzdul."
+    },
+    {
+        "question": "Which countries do the Himalayas pass through?",
+        "baseline_documents":["- The **Himalayas contain all 14 of the world’s peaks over 8,000 meters**.\n\n---\n\n## 🗻 Geological Formation\n\n- Formed about **50 million years ago** when the **Indian Plate collided with the Eurasian Plate**.\n- The collision continues today, making the Himalayas **geologically active** and prone to **earthquakes**.\n- The range continues to **rise a few millimeters every year**.\n\n---\n\n## 🌱 Climate and Ecosystems\n\nThe Himalayas encompass diverse climates and ecosystems due to elevation changes:\n\n| Elevation | Zone | Features |\n|-----------|------|----------|\n| Low hills | Subtropical | Dense forests, agriculture |\n| Mid-range | Temperate | Mixed forests, wildlife |\n| High altitude | Alpine | Shrubs, meadows |\n| Above 5,500m | Nival/Glacial | Snowfields, glaciers |\n\n- Home to the **third-largest ice mass** after Antarctica and the Arctic.\n- Source of **major Asian rivers**, including the Ganges, Indus, and Brahmaputra.\n\n---\n\n## 🐾 Flora and Fauna",
+            "# 🏔️ The Himalayas – Earth's Greatest Mountain Range\n\nThe **Himalayas** are the **highest mountain range** on Earth, forming a majestic natural barrier across South Asia. Known for their towering peaks, deep valleys, and spiritual significance, the Himalayas play a crucial role in geography, climate, and culture.\n\n---\n\n## 🌍 Location and Extent\n\n- The Himalayas span **five countries**:\n  - **India**\n  - **Nepal**\n  - **Bhutan**\n  - **China (Tibet Autonomous Region)**\n  - **Pakistan**\n\n- Stretch over **2,400 kilometers (1,500 miles)** from west to east.\n- Width ranges from **200 to 400 km** (125–250 miles).\n\n---\n\n## 🏔️ Major Peaks\n\n| Peak | Height (m) | Location |\n|------|------------|----------|\n| **Mount Everest** | 8,848.86 | Nepal/China |\n| **K2** (Godwin-Austen) | 8,611 | Pakistan |\n| **Kangchenjunga** | 8,586 | India/Nepal |\n| **Lhotse** | 8,516 | Nepal/China |\n| **Makalu** | 8,485 | Nepal/China |\n\n- The **Himalayas contain all 14 of the world’s peaks over 8,000 meters**.\n\n---"],
+        "baseline_answer": "The Himalayas pass through five countries: India, Nepal, Bhutan, China, and Pakistan."
+    },
+    {
+        "question": "Where did chess originate and what was it originally called?",
+        "baseline_documents": [
+            "🏰 Origins and Early History of Chess\n\n1. Roots in Ancient India (≈ 6th–7th Century CE)\nChaturanga, meaning “four divisions” of the army (infantry, cavalry, elephants, chariotry), emerged in northern India during the Gupta Empire era (~6th century CE).\nIt was played on an 8×8 ashtāpada board, simulating war strategy and military formations.\nThe original game was often played with dice, and the pieces moved more slowly than in modern chess; rules varied across regions."
+        ],
+        "baseline_answer": "Chess originated in ancient India around the 6th century CE, where it was called Chaturanga."
+    },
+    {
+        "question": "When did the queen become the most powerful piece in chess?",
+        "baseline_documents": [
+            "5. Medieval Europe & Rule Evolution (12th–15th Century)\nBy the 12th–13th centuries, the black-and-white board pattern and double-move pawn rule appeared in Spain and Italy.\nAround 1475 in Valencia, Spain, the modern moves of the queen and bishop emerged; the queen transformed from a weak vizier to the most powerful piece.\nAdditional rule changes: pawn promotion, castling, and stalemate refinements occurred through the 14th–17th centuries."
+        ],
+        "baseline_answer": "The queen became the most powerful piece around 1475 in Valencia, Spain."
+    },
+    {
+        "question": "What are the main types of galaxies in the Hubble classification?",
+        "baseline_documents": [
+            "# 🌌 Types of Galaxies\n\nGalaxies are massive systems of stars, gas, dust, dark matter, and energy—bound together by gravity. They come in various shapes and sizes and are fundamental building blocks of the universe.\n\n## 📦 Classification of Galaxies\n\nThe most widely used system for galaxy classification is the **Hubble Sequence** (or Hubble Tuning Fork), developed by **Edwin Hubble** in the 1920s.\n\n---\n\n## 🌟 1. Spiral Galaxies\n\n### 🔹 Features\n- Flat, rotating disks with **spiral arms**.\n- Central **bulge** surrounded by a thin disk of stars and gas.\n- **Ongoing star formation** in the arms.\n- Contain **young blue stars** and abundant interstellar matter.\n\n### 🔹 Subtypes\n| Type | Description |\n|------|-------------|\n| **Sa** | Large bulge, tightly wound arms, less gas |\n| **Sb** | Medium bulge, moderately wound arms |\n| **Sc** | Small bulge, loosely wound arms, more gas |\n\n### 🔸 Example\n- **Milky Way Galaxy**\n- **Andromeda Galaxy (M31)**\n\n---\n\n## 💫 2. Barred Spiral Galaxies",
+            "### 🔸 Example\n- **M87**\n- **NGC 4889**\n\n---\n\n## 🌫️ 4. Lenticular Galaxies (S0)\n\n### 🔹 Features\n- **Intermediate** between spiral and elliptical.\n- Have a central bulge and disk, but **no spiral arms**.\n- Little or no ongoing star formation.\n- Contain older stars and appear featureless.\n\n### 🔸 Example\n- **NGC 2787**\n\n---\n\n## 💥 5. Irregular Galaxies\n\n### 🔹 Features\n- No defined shape or structure.\n- Chaotic appearance with scattered stars, gas, and dust.\n- Often the result of **gravitational interactions or collisions**.\n- Rich in gas and **active star-forming regions**.\n\n### 🔸 Subtypes\n| Type | Description |\n|------|-------------|\n| **Irr-I** | Slight structure, somewhat organized |\n| **Irr-II** | No apparent structure |\n\n### 🔸 Example\n- **Large Magellanic Cloud**\n- **IC 10**\n\n---\n\n## 🌠 6. Peculiar and Interacting Galaxies\n\n### 🔹 Features\n- Galaxies undergoing **gravitational interactions** or **mergers**.\n- Appear distorted, warped, or stretched.\n- Sites of intense **starburs**"
+        ],
+        "baseline_answer": "The main types of galaxies in the Hubble classification are spiral, barred spiral, elliptical, lenticular, irregular, and peculiar/interacting galaxies."
+    },
+    {
+        "question": "Tell me about Matterhorn mountain",
+        "baseline_documents": [
+            "---\n\n## 🏔️ Shape and Symbolism\n\n- Toblerone bars are famous for their **triangular peaks**, inspired by the **Matterhorn mountain** in the Swiss Alps.\n- The packaging often features the Matterhorn with a **hidden bear** silhouette inside—an homage to the city of Bern (whose emblem is a bear).\n\n---\n\n## 🍯 Ingredients and Flavor\n\nToblerone chocolate is made from:\n- **Swiss milk chocolate**\n- **Honey**\n- **Almond nougat**\n- **Cocoa and sugar**\n\nThe combination gives it a **smooth, creamy texture** with bursts of sweet and crunchy nougat.\n\n---\n\n## 🍬 Product Variants"
+        ],
+        "baseline_answer": "The Matterhorn mountain in the Swiss Alps is famous for inspiring the triangular peaks of Toblerone bars. The packaging of Toblerone often features the Matterhorn with a hidden bear silhouette, which is an homage to the city of Bern, whose emblem is a bear."
+
+    },
+    {
+        "question": "What are some of the oldest known language families?",
+        "baseline_documents": [
+            "# 🗣️ A Summary of the First Human Languages\n\n## 🗺️ Earliest Known Language Families\n\nWhile the *first* language is unknowable, many ancient language **families** help trace how early speech diversified:\n\n### 🔹 Afroasiatic\n- One of the world’s oldest language families.\n- Includes **Ancient Egyptian**, **Akkadian**, and modern languages like Arabic and Hebrew.\n\n### 🔹 Indo-European\n- Root of many modern European and South Asian languages.\n- Proto-Indo-European (PIE) is reconstructed as the ancestral language.\n- Gave rise to Latin, Sanskrit, Greek, and their descendants.\n\n### 🔹 Dravidian\n- A family native to southern India, predating Indo-European languages in the region.\n- Includes Tamil, Telugu, Kannada, and Malayalam.",
+            "### 🔹 Sino-Tibetan\n- Includes **Old Chinese** and **Tibetan**, forming the roots of Chinese dialects and Southeast Asian languages.\n\n### 🔹 Niger-Congo\n- One of the largest language families, covering sub-Saharan Africa.\n- Includes Bantu languages like Swahili, Zulu, and Yoruba.\n\n---\n\n## ✍️ First Written Languages\n\nWritten language emerged much later, enabling lasting records:\n\n| Language | Script | Approx. Date |\n|----------|--------|--------------|\n| **Sumerian** | Cuneiform | ~3200 BCE |\n| **Egyptian** | Hieroglyphs | ~3100 BCE |\n| **Akkadian** | Cuneiform | ~2500 BCE |\n| **Chinese** | Oracle Bone Script | ~1200 BCE |\n| **Indus Valley Script** | Unknown | ~2600 BCE (still undeciphered) |"
+        ],
+        "baseline_answer": "Some of the oldest known language families include Afroasiatic, Indo-European, Dravidian, Sino-Tibetan, and Niger-Congo."
+    },
+    {
+        "question": "What are some of J.R.R. Tolkien’s most influential works?",
+        "baseline_documents": [
+            "## 📚 Major Works\n\n### 🔹 *The Hobbit* (1937)\n- A children’s fantasy novel following Bilbo Baggins on an unexpected journey with dwarves to reclaim treasure from the dragon Smaug.\n- Introduced readers to Middle-earth and key elements of Tolkien’s fictional world.\n\n### 🔹 *The Lord of the Rings* Trilogy (1954–1955)\n- Epic high-fantasy narrative set in Middle-earth.\n- Follows Frodo Baggins and the Fellowship in their quest to destroy the One Ring.\n- Themes: good vs. evil, friendship, sacrifice, corruption of power, and environmentalism.",
+            "- Consists of:\n  - *The Fellowship of the Ring*\n  - *The Two Towers*\n  - *The Return of the King*\n\n### 🔹 *The Silmarillion* (published posthumously, 1977)\n- A collection of mythopoeic stories describing the creation of Middle-earth and its ancient history.\n- Compiled and edited by his son, **Christopher Tolkien**."
+        ],
+        "baseline_answer": "Some of J.R.R. Tolkien’s most influential works include *The Hobbit*, *The Lord of the Rings* trilogy, and *The Silmarillion*."
+    },
+    {
+        "question": "What elements influenced Tolkien’s world-building?",
+        "baseline_documents": [
+            "## 🌐 World-Building and Linguistics\n\n- Invented entire languages: **Quenya**, **Sindarin**, **Khuzdul**, and more.\n- Developed Middle-earth with maps, timelines, cultures, and histories spanning thousands of years.\n- Blended elements from **Norse**, **Finnish**, **Celtic**, and **Anglo-Saxon** mythology.",
+            "## 📖 Literary Style\n\n- Combines **poetic prose**, **formal diction**, and **moral clarity**.\n- Stories are often deeply rooted in **Christian symbolism**, **linguistic invention**, and **historical myth**.\n- Emphasized the concept of *eucatastrophe*—a sudden joyous turn."
+        ],
+        "baseline_answer": "Tolkien’s world-building was influenced by Norse, Finnish, Celtic, and Anglo-Saxon mythology, as well as Christian symbolism and linguistic invention."
+    },
+    {
+        "question": "What impact did Tolkien have on fantasy literature and popular culture?",
+        "baseline_documents": [
+            "## 🏛️ Legacy and Influence\n\n- Widely regarded as the **father of modern high fantasy**.\n- Inspired generations of fantasy writers, including C.S. Lewis, George R.R. Martin, and J.K. Rowling.\n- Middle-earth adaptations have spanned:\n  - Radio\n  - Stage\n  - Peter Jackson’s film trilogies (2001–2003, 2012–2014)\n  - Streaming series exploring the Second Age",
+            "## 📌 Summary\n\nJ.R.R. Tolkien was a philologist, war veteran, professor, and literary visionary who built one of the most expansive and beloved fantasy universes in modern literature. His works not only defined the fantasy genre but also elevated it with deep linguistic and mythological foundations, creating a lasting legacy that continues to captivate readers and creators around the world."
+        ],
+        "baseline_answer": "Tolkien is considered the father of modern high fantasy and has influenced writers, films, and media worldwide with his creation of Middle-earth."
+    },
+    {
+        "question": "How do Galaxy and Lindt chocolates differ in brand positioning and texture?",
+        "baseline_documents": [
+            "## 🌟 Brand Traits (Galaxy)\n\n- Marketed for its **silky-smooth texture** and **luxurious feel**.\n- Often targeted at adults with slogans like:\n  - “Why have cotton when you can have silk?”\n  - “Choose pleasure.”\n\n## 🧪 Ingredients and Production (Galaxy)\n\n- Known for using finely ground cocoa particles and extra cocoa butter.\n- Most products are made using a **blend of milk solids, sugar, cocoa butter, and flavorings**.\n- Variants include **vegan**, **dark chocolate**, and **limited-edition flavors**.",
+            "## 🧪 Craftsmanship & Quality (Lindt)\n\n- Lindt emphasizes **bean-to-bar** control: sourcing, roasting, grinding, and refining its own cocoa beans.\n- The brand is known for:\n  - **Smooth texture**\n  - **Fine ingredients**\n  - **Swiss chocolate-making tradition**\n\n- The **conching process** developed by Rodolphe Lindt remains central to the brand’s creamy texture and flavor.\n\n## 🎯 Brand Identity & Marketing (Lindt)\n\n- Lindt positions itself as a **luxury, indulgent brand** rooted in Swiss tradition.\n- Signature red and gold packaging symbolizes richness and elegance.\n- Popular slogans include:\n  - “Master Chocolatiers Since 1845”\n  - “Irresistibly Smooth”"
+        ],
+        "baseline_answer": "Galaxy emphasizes silky-smooth indulgence with modern luxury appeal, while Lindt highlights artisanal craftsmanship, Swiss tradition, and fine ingredients for a classic premium experience."
+    },
+    {
+        "question": "What makes Toblerone and Lindt chocolates unique in terms of shape, packaging, and gifting appeal?",
+        "baseline_documents": [
+            "## 🏔️ Shape and Symbolism (Toblerone)\n\n- Toblerone bars are famous for their **triangular peaks**, inspired by the **Matterhorn mountain** in the Swiss Alps.\n- The packaging often features the Matterhorn with a **hidden bear** silhouette inside—an homage to the city of Bern.\n\n## 🎁 Packaging and Gifting (Toblerone)\n\n- Sold in its signature **triangular prism-shaped box**, often in gold, red, or themed packaging.\n- Commonly purchased as **souvenirs**, **holiday gifts**, or **airport duty-free chocolates**.\n- Available in multiple sizes, from small snack bars to **giant 4.5kg editions**.",
+            "## 🎯 Brand Identity & Marketing (Lindt)\n\n- Lindt positions itself as a **luxury, indulgent brand** rooted in Swiss tradition.\n- Signature red and gold packaging symbolizes richness and elegance.\n\n## 📦 Seasonal Favorites (Lindt)\n\n- Lindt excels during holidays with iconic products:\n  - **Easter**: Gold Bunny, assorted eggs, chick-shaped chocolates\n  - **Christmas**: Chocolate reindeer, advent calendars, festive gift boxes\n  - **Valentine’s Day**: Lindor heart boxes and love-themed assortments"
+        ],
+        "baseline_answer": "Toblerone stands out with its triangular shape and iconic gifting appeal, especially in travel retail, while Lindt emphasizes elegant packaging and seasonal gift assortments rooted in Swiss luxury."
+    },
+    {
+        "question": "What makes the Himalayas and the Andes ecologically and culturally significant?",
+        "baseline_documents": [
+            "## 🌱 Climate and Ecosystems (Himalayas)\n\nThe Himalayas encompass diverse climates and ecosystems due to elevation changes:\n\n| Elevation | Zone | Features |\n|-----------|------|----------|\n| Low hills | Subtropical | Dense forests, agriculture |\n| Mid-range | Temperate | Mixed forests, wildlife |\n| High altitude | Alpine | Shrubs, meadows |\n| Above 5,500m | Nival/Glacial | Snowfields, glaciers |\n\n- Home to the **third-largest ice mass** after Antarctica and the Arctic.\n- Source of **major Asian rivers**, including the Ganges, Indus, and Brahmaputra.",
+            "## 🧬 Biodiversity and Ecosystems (Andes)\n\n- Diverse climate zones:\n  - **Tropical forests** (Yungas)\n  - **High-altitude grasslands** (Puna)\n  - **Snow-capped peaks**\n- Home to species like:\n  - **Llamas and alpacas**\n  - **Andean condor**\n  - **Spectacled bear**\n  - **Vicuña**\n- Contains **cloud forests**, **glaciers**, **salt flats**, and **volcanic deserts**.",
+            "## 🧘‍♀️ Cultural and Religious Significance (Himalayas)\n\n- Sacred in **Hinduism**, **Buddhism**, and **Jainism**.\n- Considered the **abode of gods**—e.g., Mount Kailash (Tibet) is revered as the home of **Lord Shiva**.\n- Important pilgrimage sites: Kedarnath, Badrinath, Amarnath, Muktinath.\n\n## 🧘‍♂️ Cultural and Historical Significance (Andes)\n\n- Birthplace of ancient civilizations:\n  - **Inca Empire**\n  - **Chavín**, **Nazca**, **Moche**, and others\n- Landmarks:\n  - **Machu Picchu** (Peru)\n  - **Tiwanaku** (Bolivia)\n  - **Qhapaq Ñan** (Inca road system)\n- Still home to **indigenous communities** preserving traditional languages, farming, and crafts."
+        ],
+        "baseline_answer": "The Himalayas and the Andes are ecologically rich and culturally vital mountain ranges. The Himalayas host diverse ecosystems and are sacred in several religions, while the Andes support a wide range of habitats and were home to ancient civilizations like the Inca."
+    },
+    {
+        "question": "How were the Himalayas and Andes mountain ranges formed geologically?",
+        "baseline_documents": [
+            "## 🗻 Geological Formation (Himalayas)\n\n- Formed about **50 million years ago** when the **Indian Plate collided with the Eurasian Plate**.\n- The collision continues today, making the Himalayas **geologically active** and prone to **earthquakes**.\n- The range continues to **rise a few millimeters every year**.",
+            "## 🌋 Geology and Volcanism (Andes)\n\n- The Andes formed from the **subduction of the Nazca Plate under the South American Plate**.\n- Home to hundreds of **active volcanoes**, particularly along the **Andean Volcanic Belt**.\n- Volcanic peaks like **Cotopaxi** and **El Misti** are prominent features."
+        ],
+        "baseline_answer": "The Himalayas were formed by the collision of the Indian and Eurasian plates, while the Andes formed through the subduction of the Nazca Plate beneath the South American Plate."
+    },
+    {
+        "question": "What are some notable features of the Alps in terms of geography and tourism?",
+        "baseline_documents": [
+            "The **Alps** are the most extensive mountain range system in Europe, stretching across eight countries: **France, Switzerland, Italy, Monaco, Liechtenstein, Austria, Germany, and Slovenia**.\n- Highest peak: **Mont Blanc (4,809 m)** on the border between France and Italy.\n- The Alps form a climatic and cultural divide between northern and southern Europe.\n- They span approximately **1,200 km** (750 miles) in length.\n\nGeologically, the Alps were formed during the **Alpine orogeny**, when the African and Eurasian tectonic plates collided.",
+            "- The Alps are famous for **ski resorts**, **hiking trails**, and **alpine villages**.\n- Tourism hotspots include **Zermatt**, **Chamonix**, **St. Moritz**, and **Innsbruck**.\n- Activities include skiing, mountaineering, mountain biking, paragliding, and glacier walking.\n- The region is home to unique alpine flora and fauna, including **ibex**, **chamois**, and **edelweiss**.\n- Also known for cultural heritage sites, cheese-making traditions, and scenic train routes like the **Glacier Express**."
+        ],
+        "baseline_answer": "The Alps stretch across eight European countries and are known for peaks like Mont Blanc and iconic tourism destinations such as Zermatt and Chamonix, offering skiing, hiking, and alpine scenery."
+    },
+    {
+        "question": "How do the Alps and the Himalayas differ in geography and elevation?",
+        "baseline_documents": [
+            "## 🌍 Location and Extent (Himalayas)\n\n- The Himalayas span **five countries**: India, Nepal, Bhutan, China (Tibet Autonomous Region), and Pakistan.\n- Stretch over **2,400 kilometers** (1,500 miles) from west to east.\n- Width ranges from **200 to 400 km** (125–250 miles).\n\n## 🏔️ Major Peaks\n\n| Peak | Height (m) | Location |\n|------|------------|----------|\n| **Mount Everest** | 8,848.86 | Nepal/China |\n| **K2** | 8,611 | Pakistan |\n| **Kangchenjunga** | 8,586 | India/Nepal |\n\n- The Himalayas contain all **14 of the world’s peaks over 8,000 meters**.",
+            "The **Alps** are a European mountain range stretching across **France, Switzerland, Italy, Monaco, Liechtenstein, Austria, Germany, and Slovenia**.\n- They extend about **1,200 km** (750 miles).\n- The highest peak is **Mont Blanc (4,809 m)**, located between France and Italy.\n- Compared to the Himalayas, the Alps are geologically older and have been more extensively shaped by glaciation.\n- While lower in elevation, the Alps remain significant in global mountaineering, tourism, and European geography."
+        ],
+        "baseline_answer": "The Himalayas are taller and span across South Asia, containing the world’s highest peaks, while the Alps are lower in elevation and stretch across central Europe."
+    },
+    {
+        "question": "What made the Singer sewing machine successful and widely adopted?",
+        "baseline_documents": [
+            "## 5. Mass Production and the Rise of the Singer Machine\n\nIn 1851, a new design introduced a foot treadle and vertical needle. This machine was more practical, faster, and easier to use. The inventor pioneered not only technical improvements but also modern sales strategies, such as installment plans and aggressive marketing. The sewing machine became a household tool, transforming home and industrial garment production alike.",
+            "## 6. The Patent Wars and Sewing Machine Combination\n\nThe rapid innovation led to disputes among inventors and manufacturers, resulting in years of lawsuits. Eventually, major players formed a legal agreement to share patents, allowing the market to grow without constant legal interruptions. This agreement also led to standardized machines and features."
+        ],
+        "baseline_answer": "The Singer machine succeeded due to practical design improvements, a foot treadle, and clever marketing like installment plans. A later patent-sharing agreement helped standardize and grow the market."
+    },
+    {
+        "question": "Who created the first functional sewing machine and what happened to it?",
+        "baseline_documents": [
+            "## 3. The First Working Machine: Thimonnier’s Breakthrough\n\nIn 1830, a French tailor created a functional sewing machine that used a hooked needle to create chain stitches. This machine could sew simple seams and was used to produce military uniforms. However, it was met with fierce resistance from tailors who feared job loss. His workshop was destroyed in a riot, and the invention faded into obscurity for a time.",
+            "## 4. American Innovation and the Birth of Lock Stitch\n\n### 1830s: Early U.S. Inventions\n\nAn American inventor built a backstitch machine capable of sewing simple seams, but he did not patent it, fearing it would lead to unemployment among seamstresses.\n\n### 1846: A Turning Point\n\nThe breakthrough came with a patented machine that used a needle with an eye at the tip..."
+        ],
+        "baseline_answer": "The first functional sewing machine was created by French tailor Barthélemy Thimonnier in 1830. His invention was destroyed by rioting tailors who feared job loss, and it faded into obscurity."
+    },
+    {
+        "question": "How did the sewing machine patent wars resolve and what was their impact?",
+        "baseline_documents": [
+            "## 6. The Patent Wars and Sewing Machine Combination\n\nBy the 1850s, the rapid pace of innovation led to fierce competition, with multiple inventors and companies filing overlapping patents. This created a tangle of legal disputes and uncertainty. Eventually, key manufacturers — including Singer, Wheeler & Wilson, and Grover & Baker — recognized that continued litigation was unsustainable.",
+            "## 6. The Patent Wars and Sewing Machine Combination\n\nTo avoid endless lawsuits and spur industry growth, in 1856 they formed the ‘Sewing Machine Combination’, a patent pool that allowed members to use each other’s patents royalty‑free. This agreement standardized key machine features, reduced litigation costs, and opened the market to widespread adoption by home users and factories."
+        ],
+        "baseline_answer": "The sewing machine patent wars were resolved in 1856 by the formation of the Sewing Machine Combination, a patent pool that standardized technology and enabled market expansion."
+    },
+    {
+        "question": "What were the key innovations that led to the modern sewing machine?",
+        "baseline_documents": [
+            "## 4. American Innovation and the Birth of Lock Stitch\n\n### 1846: A Turning Point\n\nThe breakthrough came with a patented machine that used a needle with an eye at the tip, a shuttle beneath the fabric, and an automatic feed. It was capable of sewing consistent and durable lock stitches at high speed, far outpacing hand sewing. This became the foundation for modern sewing machines.",
+            "## 5. Mass Production and the Rise of the Singer Machine\n\nIn 1851, a new design introduced a foot treadle and vertical needle. This machine was more practical, faster, and easier to use. The inventor pioneered not only technical improvements but also modern sales strategies, such as installment plans and aggressive marketing. The sewing machine became a household tool, transforming home and industrial garment production alike."
+        ],
+        "baseline_answer": "Key innovations included the lock-stitch mechanism with a shuttle and automatic feed, followed by the foot treadle and vertical needle design that made the sewing machine faster and more practical."
+    },
+    {
+        "question": "What technological improvements were made to sewing machines after their initial invention?",
+        "baseline_documents": [
+            "## 7. Continued Innovation\n\nSeveral advancements were introduced in the decades that followed:\n\n- Machines began offering **zigzag stitches** for buttonholes.\n- **Overlock and serger machines** emerged for seam finishing.\n- **Portable**, **electric**, and **programmable machines** were later developed for home use.",
+            "These improvements made sewing machines indispensable in both industrial and domestic settings, supporting everything from mass production to creative home sewing. The evolution of features and usability ensured that sewing machines stayed relevant across centuries."
+        ],
+        "baseline_answer": "Later innovations included zigzag stitching, overlock machines, and portable electric models—making sewing machines essential in homes and factories alike."
+    },
+    {
+        "question": "How did the invention of the sewing machine evolve from early concepts to widespread adoption?",
+        "baseline_documents": [
+            "## 2. Early Concepts and Attempts\n\n### 1755–1790: Needle Innovations and First Designs\n\nThe first recorded concept related to sewing mechanics was a specialized needle design. In 1790, a sewing machine design was patented, including a needle, feed mechanism, and overhanging arm. However, it likely never became a working model.\n\n### 1800–1820: Unsuccessful Prototypes\n\nInventors across Europe attempted to mechanize sewing, but the machines were not durable or practical enough for wide use. Many designs focused on embroidery or chain-stitch mechanisms.",
+            "## 3. The First Working Machine: Thimonnier’s Breakthrough\n\nIn 1830, a French tailor created a working sewing machine using a hooked needle to make chain stitches. Used for military uniforms, it faced fierce resistance from tailors fearing job loss. His workshop was destroyed in a riot, causing the invention to be forgotten for a time.\n\n## 4. American Innovation and the Birth of Lock Stitch\n\nIn the 1840s, the modern lockstitch machine was patented using a needle with an eye, a shuttle, and an automatic feed—capable of fast, durable stitching.",
+            "## 5. Mass Production and the Rise of the Singer Machine\n\nBy 1851, a new design added a foot treadle and vertical needle, making it faster and easier to use. The inventor introduced modern marketing tactics like installment plans, helping the machine become a household staple. Combined with the later **Sewing Machine Combination** (1856 patent-sharing agreement), sewing machines became standardized, affordable, and widely adopted across homes and factories."
+        ],
+        "baseline_answer": "The sewing machine evolved from early 18th-century needle designs and failed prototypes to Thimonnier’s functional model in 1830. True success came later with the American lockstitch patent and Singer’s innovations in design, marketing, and patent sharing—leading to widespread adoption."
+    }
+]
