@@ -74,7 +74,8 @@ class ChatAgent(BaseChatAgent):
     def _get_vector_db_via_config(self):
         rag_knowledge_cfg = app_config.rag_knowledge
         db_name = getattr(rag_knowledge_cfg.vector_db, 'type', None).name.lower()
-        return VectorDBConnectorFactory.create(db_name, rag_knowledge_cfg.vector_db)
+        persist_dir = getattr(app_config.app, 'data_path', './data')
+        return VectorDBConnectorFactory.create(db_name, rag_knowledge_cfg.vector_db, persist_dir)
 
     def _build_graph(self):
         graph = StateGraph(AgentState)
