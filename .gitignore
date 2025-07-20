@@ -13,3 +13,6 @@ __pycache__/
 
 # ignore others
 .replit
+
+# ignore env
+.env
