@@ -16,23 +16,23 @@ llm:
   open_ai_gpt4o:
     type: openai
     model_name: gpt-4o
-    api_key: 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
+    api_key: <openai_api_key>
 
   anthropic_claude:
     type: anthropic
     model_name: claude-3-5-sonnet-20240620
-    api_key: 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
+    api_key: <anthropic_api_key>
 
 # Vector DB Settings: Add your vector db here in the format:
 # vector_db:
 #   <name>:
 #     type: <chromadb | pinecone>
-#     in_memory: <True | False>
+#     in_memory: <true | false>
 
 vector_db:
   chromadb:
     type: chromadb
-    in_memory: True
+    in_memory: False
 
 # Chat Settings: add your chat settings here in the format:
 # chat:
@@ -51,7 +51,7 @@ chat:
 rag_knowledge:
   vector_db: chromadb
   embedding_model: all-MiniLM-L6-v2
-  top_k: 2
+  top_k: 4
 
 fast_api_server:
   host: 0.0.0.0
