@@ -1,0 +1,60 @@
+app:
+  name: doc-rag
+  version: 0.1.0
+  description: A document retrieval and generation system
+  data_path: ./data
+  prompt_dir: ./src/prompts/prompt_files
+
+# LLM Settings: Add your llms here in the format:
+# llm:
+#   <name>:
+#     type: <open_ai | anthropic>
+#     model_name: <model_name>
+#     api_key: <api_key>
+
+llm:
+  open_ai_gpt4o:
+    type: openai
+    model_name: gpt-4o
+    api_key: 
+
+  anthropic_claude:
+    type: anthropic
+    model_name: claude-3-5-sonnet-20240620
+    api_key: 
+
+# Vector DB Settings: Add your vector db here in the format:
+# vector_db:
+#   <name>:
+#     type: <chromadb | pinecone>
+#     in_memory: <true | false>
+
+vector_db:
+  chromadb:
+    type: chromadb
+    in_memory: False
+
+# Chat Settings: add your chat settings here in the format:
+# chat:
+#   llm: <name>, select a name that matches the name in the llm section
+#   max_history: <max_history>
+
+chat:
+  llm: open_ai_gpt4o
+  max_history: 5
+  generate_followup: true
+
+# Rag Knowledge Settings: add your rag knowledge settings here in the format:
+# rag_knowledge:
+#   vector_db: <name>, select a name that matches the name in the vector_db section
+#   embedding_model: <name>, select a name from all-MiniLM-L6-v2 | Add future supported here
+rag_knowledge:
+  vector_db: chromadb
+  embedding_model: all-MiniLM-L6-v2
+  top_k: 4
+
+fast_api_server:
+  host: 0.0.0.0
+  port: 2000
+  api:
+    prefix: /api/v1

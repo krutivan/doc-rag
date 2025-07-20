@@ -12,3 +12,7 @@ python-multipart
 langgraph
 langchain_core
 langsmith
+matplotlib
+seaborn
+plotly
+openevals
