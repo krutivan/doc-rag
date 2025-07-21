@@ -287,20 +287,30 @@ Currently, the indexing script supports:
 - **Markdown files (*.md)**: Documentation, notes, articles
 - **Text files**: Can be easily extended for other formats
 
-#### What the Indexing Process Does
-
-1. **Document Processing**: Reads files from `data/knowledge/` directory
-2. **Text Chunking**: Splits documents into manageable chunks
-3. **Embedding Generation**: Creates vector embeddings using the configured model
-4. **Vector Storage**: Stores embeddings in ChromaDB for fast retrieval
-5. **Metadata Indexing**: Preserves document metadata for filtering
 
 #### Manual Document Loading
 
 You can also load documents using the "http://localhost:2000/api/v1/index" API endpoint once the server is running:
 
-# Example response:
-# {"num_chunks": 15}
+Example response:
+{"num_chunks": 15}
+
+#### Call Chat Endpoint
+
+First create a new chat POST request: http://0.0.0.0:2000/api/v1/chat/new
+
+This will return a chat id which you can use to call the chat message endpoint.
+
+The chat message endpoint is a POST request: http://0.0.0.0:2000/api/v1/chat/message
+Body is a json with the following format:
+
+{
+    "chat_id": "<chat_id>",
+    "message": "<message>"
+}
+
+You can also view chat history by calling GET request: http://0.0.0.0:2000/api/v1/chat/history
+
 
 ## 📊 Evaluation and Experiments
 The test_eval_rag.ipynb notebook can be used to evaluate the system.
