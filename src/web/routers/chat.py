@@ -2,7 +2,7 @@
 from fastapi import APIRouter, status
 from src.services.chat.chat_service import chat_service
 from src.core.dto.chat_dto import ChatCreateResponse, ChatMessageResponse
-
+import logging
 from fastapi import Body
 
 router = APIRouter()
@@ -30,9 +30,10 @@ def chat_message(chat_id: str = Body(...), user_message: str = Body(...)):
     try:
         return chat_service.chat_message(chat_id, user_message)
     except Exception as e:
+        logging.error(f"Failed to process chat message: {str(e)}")
         return ChatMessageResponse(
             response_message="",
-            sources=[]
+            follow_up_questions=""
         )
 
 @router.post('/chat/history')
@@ -43,4 +44,5 @@ def chat_history(chat_id: str = Body(...)):
     try:
         return chat_service.get_chat_history(chat_id)
     except Exception as e:
+        logging.error(f"Failed to get chat history: {str(e)}")
         return {"error": str(e)}
