@@ -27,4 +27,4 @@ async def index_document(file: UploadFile = File(...)):
     finally:
         os.remove(tmp_path)
 
-    return IndexResponseDTO(num_chunks=num_chunks)
+    return IndexResponse(num_chunks=num_chunks)
