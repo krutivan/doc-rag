@@ -16,3 +16,6 @@ matplotlib
 seaborn
 plotly
 openevals
+pydantic
+pypdf
+pytest
